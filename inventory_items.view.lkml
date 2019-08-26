@@ -7,6 +7,8 @@ view: inventory_items {
     sql: ${TABLE}.id ;;
   }
 
+  ### Extra dimension #####
+
   dimension: cost {
     type: number
     sql: ${TABLE}.cost ;;
